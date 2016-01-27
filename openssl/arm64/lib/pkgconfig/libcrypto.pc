@@ -1,0 +1,12 @@
+prefix=/home/zibin/Documents/workspace/fips-openssl-android/openssl-1.0.2e/../openssl/arm64
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 1.0.2e
+Requires: 
+Libs: -L${libdir} -lcrypto
+Libs.private: -ldl
+Cflags: -I${includedir} 
