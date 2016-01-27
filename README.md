@@ -7,7 +7,7 @@ This repo contains
   3. shell scripts that you can build these libraries yourself
   4. openssl-fips-2.0.11.tar.gz and openssl-1.0.2e.tar.gz. these are just for convinience. you should probably download them directly from OpenSSL.
 
-Build Instructions:
+## Build Instructions:
 
   These scripts are tested with Ubuntu. But may be adapted to other platforms.
 
